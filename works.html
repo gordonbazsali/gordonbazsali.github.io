@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gordon bazsali jr — works</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Droid+Sans+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo"><a href="index.html">gordon bazsali jr</a></div>
+        <ul class="nav-links">
+            <li><a href="index.html#about">about</a></li>
+            <li><a href="works.html">works</a></li>
+            <li><a href="#schedule">schedule</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+
+    <ul class="category-bar">
+        <li><a href="#" class="category-link active" data-category="music">music</a></li>
+        <li><a href="#" class="category-link" data-category="audiovisual">audiovisual</a></li>
+        <li><a href="#" class="category-link" data-category="live">live</a></li>
+    </ul>
+
+    <ul class="subcategory-bar" id="subcategory-bar">
+        <!-- filled in by JavaScript based on selected category -->
+    </ul>
+
+    <div class="works-content">
+
+  <div class="work-entry" data-category="music" data-subcategory="film">
+    <div class="work-entry-media">
+      <iframe
+        src="https://www.youtube.com/embed/YOUR_DISORDER_VIDEO_ID"
+        title="Disorder (2025)"
+        frameborder="0"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+    <div class="work-entry-text">
+      <h3 class="work-entry-title">DISORDER <span class="work-entry-year">(2025)</span></h3>
+      <p class="work-entry-subtitle">film by Tim Paugh</p>
+      <p class="work-entry-detail">original score — Gordon Bazsali, Jr.</p>
+      <p class="work-entry-detail">now streaming on <a href="#">Amazon Prime (UK/US)</a></p>
+    </div>
+  </div>
+
+  <div class="work-entry" data-category="audiovisual" data-subcategory="series">
+    <div class="work-entry-media">
+      <iframe
+        src="https://youtube.com/playlist?list=PL_jCAvg2TDFrblsQXqMzFLbxkOZxBsaq7&si=83EzsRxuhtXYrMbr"
+        title="365 in 2026"
+        frameborder="0"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+    <div class="work-entry-text">
+      <h3 class="work-entry-title">365 in 2026</h3>
+      <p class="work-entry-subtitle">one short audiovisual piece made per day in 2026. No generative AI used. [work in progress] </p>
+    </div>
+  </div>
+
+</div>
+<script src="works.js"></script>
+</body>
+</html>
