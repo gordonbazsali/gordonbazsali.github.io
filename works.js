@@ -1,5 +1,5 @@
 const subcategories = {
-  music: ['film', 'dance', 'concert', 'albums'],
+  music: ['film', 'albums', 'concert', 'dance'],
   audiovisual: ['series', 'standalone'],
   live: []
 };
