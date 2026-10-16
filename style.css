@@ -459,3 +459,18 @@ body {
   text-align: right;
   font-size: 0.8rem;
 }
+
+.logo-thumb {
+  object-fit: contain;
+  background-color: #f5f5f5; /* optional: subtle background so the empty space doesn't look like a gap */
+  padding: 20px; /* optional: a little breathing room around the logo */
+}
+
+.work-entry--center {
+  align-items: center;
+}
+
+.work-entry-detail--large {
+  font-size: 1.3rem;
+  margin: 0;
+}
